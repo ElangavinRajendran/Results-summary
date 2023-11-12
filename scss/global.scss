@@ -1,0 +1,42 @@
+@import "variables";
+
+*,*::after,*::before{
+  box-sizing: inherit;
+}
+html{
+  box-sizing: border-box;
+}
+body{
+  height: auto;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  font-family: 'Hanken Grotesk', sans-serif;
+ 
+}
+.flex{
+  display: flex;
+  &-jc-c{
+    justify-content: center;
+  }
+  &-ai-c{
+    align-items: center;
+  }
+  &-fd-c{
+    flex-direction: column
+  }
+}
+section{
+  position: absolute;
+ 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+@media screen and (max-width: 500px) {
+  section {
+   flex-wrap: wrap;
+  }
+}
+

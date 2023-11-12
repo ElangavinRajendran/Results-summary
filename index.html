@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/scss/style.css">
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body>
+  <section class="flex flex-jc-c flex-ai-c">
+    <div class="result flex-fd-c result-background-color">
+      <h3>Your Result</h3>
+      <div class="result-circle flex flex-fd-c flex-jc-c flex-ai-c">
+        <h1>76</h1>
+        <span>of 100</span>
+      </div>
+      <h2>Great</h2>
+      <p>You scored higher than 65% of the people who have taken these test</p>
+    </div>
+    <div class="summary">
+      <h3>Summary</h3>
+      <ul class="summary-list-type-none">
+        <li class="reaction"><img src="/assets/images/icon-reaction.svg" alt="" /> <span class="text">Reaction</span><span class="score">80 </span><span class="outofscore">/ 100</span></li>
+        <li class="memory"><img src="/assets/images/icon-memory.svg" alt="" /> <span class="text">Memory</span><span class="score">92 </span><span class="outofscore">/ 100</span></li>
+        <li class="verbal"><img src="/assets/images/icon-verbal.svg" alt="" /> <span class="text">Verbal</span><span class="score">61 </span><span class="outofscore">/ 100</span></li>
+        <li class="visual"><img src="/assets/images/icon-visual.svg" alt="" /> <span class="text">Visual</span><span class="score">72 </span><span class="outofscore">/ 100</span></li>
+      </ul>
+      <button>Continue</button>
+    </div>
+  </section>
+  
+</body>
+
+</html>
